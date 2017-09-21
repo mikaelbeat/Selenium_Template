@@ -10,6 +10,11 @@ public class Functions {
 		driver.switchTo().frame("frame");
 	}
 	
+	// Switch to default frame
+	public void switchToDefaultFrame(){
+		driver.switchTo().defaultContent();
+	}
+	
 	// Click something
 	public void clickSomething(){
 		something.click();
@@ -47,7 +52,7 @@ public class Functions {
 		js.executeScript("window.scrollBy(0, -1900);")
 	}
 	
-	// Scroll to security clearance information
+	// Scroll to some element
 	public void scrollToSomeElement() throws InterruptedException {
 		js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", elementName);

@@ -12,17 +12,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import isimHome.HomePage;
-import isimHome.LoginPage;
-import isimProfile.ProfileContract;
-import isimProfile.ProfileEmployee;
-import isimProfile.ProfileEmployer;
-import isimProfile.ProfileSecurity;
-import isimProfile.ProfileSite;
-import isimProfile.ProfileSiteCard;
-import isimProfile.ProfileWorkings;
-import isimProfile.ViewAndEditProfile;
-import requestAndDeleteAccess.SelectUser;
 import utilities.Screenshots;
 
 public class Example_template {
